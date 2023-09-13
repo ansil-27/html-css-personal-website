@@ -1,0 +1,121 @@
+.mypic{
+    border-radius: 50%; /* Use a radius of 50% to create a circular shape */
+    width: 200px; /* Set the desired width of the image */
+    height: 200px; /* Set the desired height of the image */
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+h1{
+    font-family: "Sofia", sans-serif;
+}
+.contac{
+    border-top: 50px;
+    
+}
+.tenor-gif-embed{
+margin-top: 60px;
+}
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.me{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.edu{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 5px;
+}
+.skill{
+    display: grid;
+    grid-template-columns: ifr 1fr 1fr;
+    grid-template-rows: ifr 1fr 1fr;
+    gap: 3px;
+}
+.coder{
+    grid-column: 2;
+}
+.web{
+    grid-column: 1;
+    grid-row: 2;
+}
+.dbms{
+    grid-row: 3;
+    grid-column: 2;
+}
+.os{
+    grid-column: 3;
+    grid-row: 2;
+}
+.d-skill{
+    grid-column: 2;
+    grid-row: 2;
+}
+.high-s{
+    margin-top: 0px;
+}
+.gradient-background{
+    background: linear-gradient(300deg, #00bfff, #c48026, #6e0969);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+.gradient-background1{
+    background: linear-gradient(300deg, #687ee8, #e5ebee, #0b76b3);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+.edu-s h2{
+    margin-left: 3rem;
+}
+.gradient-background2{
+    background: linear-gradient(300deg, white, #b2deee, #3aeaf6);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}   
+@keyframes gradient-animation{
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.college,.high-s,.higher-s{
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+.inner p{
+    margin-left: 20px;
+    color: white;
+}
+.college,.high-s,.higher-s:hover {
+    transform: scale(1.05); /* Increase the size of the item on hover */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a box shadow for a pop-up effect */
+  }
+.quote{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 50px;
+    box-shadow: 0 0 0 2px transparent, 0 0 0 4px red;
+}
+.college,.high-s,.higher-s p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+section:first-child {
+        margin-bottom: 20px; /* Adjust the value to control the gap size */
+    }
+    
